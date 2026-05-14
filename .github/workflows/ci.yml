@@ -20,7 +20,7 @@ jobs:
         working-directory: .
         run: ./gradlew build -x test
 
-      - name: Test
+      - name: Test1
         working-directory: .
         run: ./gradlew test
   system-test:
